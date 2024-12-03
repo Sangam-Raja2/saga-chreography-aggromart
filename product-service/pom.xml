@@ -7,7 +7,7 @@
     <artifactId>saga-chreography-aggromart</artifactId>
     <version>1.0-SNAPSHOT</version>
   </parent>
-  <groupId>com.sangam</groupId>
+  <groupId>com.sangam.aggromart.product</groupId>
   <artifactId>product-service</artifactId>
   <version>1.0-SNAPSHOT</version>
   <packaging>jar</packaging>
@@ -58,9 +58,21 @@
       <version>3.0.0</version>
     </dependency>
     <dependency>
-      <groupId>com.sangam.aggromart</groupId>
+      <groupId>com.sangam.aggromart.common</groupId>
       <artifactId>common</artifactId>
       <version>1.0-SNAPSHOT</version>
     </dependency>
   </dependencies>
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-maven-plugin</artifactId>
+        <configuration>
+          <!-- disable process forking that is enabled by default in spring-boot 2.2.0.RELEASE and higher (alternative: -Dspring-boot.run.fork=false) -->
+          <fork>false</fork>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
 </project>

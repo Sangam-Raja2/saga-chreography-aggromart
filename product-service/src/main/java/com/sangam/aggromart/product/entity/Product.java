@@ -1,4 +1,4 @@
-package com.sangam.product.entity;
+package com.sangam.aggromart.product.entity;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

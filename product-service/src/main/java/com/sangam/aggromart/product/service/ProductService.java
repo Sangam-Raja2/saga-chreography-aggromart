@@ -1,11 +1,11 @@
-package com.sangam.product.service;
+package com.sangam.aggromart.product.service;
 
 import com.sangam.aggromart.common.dto.ProductRequestDTO;
 import com.sangam.aggromart.common.dto.ProductResponseDTO;
 import com.sangam.aggromart.common.util.IdGenerator;
-import com.sangam.product.entity.Product;
-import com.sangam.product.exception.ProductException;
-import com.sangam.product.repository.ProductRepository;
+import com.sangam.aggromart.product.entity.Product;
+import com.sangam.aggromart.product.exception.ProductException;
+import com.sangam.aggromart.product.repository.ProductRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Service;

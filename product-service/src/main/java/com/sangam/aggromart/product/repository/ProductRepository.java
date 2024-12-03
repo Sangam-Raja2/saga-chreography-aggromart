@@ -1,6 +1,6 @@
-package com.sangam.product.repository;
+package com.sangam.aggromart.product.repository;
 
-import com.sangam.product.entity.Product;
+import com.sangam.aggromart.product.entity.Product;
 import org.springframework.data.mongodb.repository.Aggregation;
 import org.springframework.data.mongodb.repository.MongoRepository;
 import org.springframework.data.mongodb.repository.Query;

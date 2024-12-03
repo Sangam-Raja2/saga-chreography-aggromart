@@ -1,4 +1,4 @@
-package com.sangam.product.exception;
+package com.sangam.aggromart.product.exception;
 
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpStatus;

@@ -1,4 +1,4 @@
-package com.sangam.product.exception;
+package com.sangam.aggromart.product.exception;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

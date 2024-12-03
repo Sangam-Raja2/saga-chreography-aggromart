@@ -1,4 +1,4 @@
-package com.sangam.product.config;
+package com.sangam.aggromart.product.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
