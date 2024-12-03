@@ -1,7 +1,7 @@
-package com.sangam.common.dto;
+package com.sangam.aggromart.common.dto;
 
-import com.sangam.common.event.OrderStatus;
-import com.sangam.common.event.PaymentStatus;
+import com.sangam.aggromart.common.event.OrderStatus;
+import com.sangam.aggromart.common.event.PaymentStatus;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;

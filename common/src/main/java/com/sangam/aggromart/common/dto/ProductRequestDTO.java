@@ -1,4 +1,4 @@
-package com.sangam.common.dto;
+package com.sangam.aggromart.common.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

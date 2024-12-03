@@ -1,4 +1,4 @@
-package com.sangam.common.event;
+package com.sangam.aggromart.common.event;
 
 import java.util.Date;
 import java.util.UUID;

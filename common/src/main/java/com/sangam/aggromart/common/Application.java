@@ -1,4 +1,4 @@
-package com.sangam.common;
+package com.sangam.aggromart.common;
 
 public class Application {
     public static void main(String[] args) {

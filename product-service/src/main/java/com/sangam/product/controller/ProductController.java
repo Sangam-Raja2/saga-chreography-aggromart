@@ -1,7 +1,7 @@
 package com.sangam.product.controller;
 
-import com.sangam.common.dto.ProductRequestDTO;
-import com.sangam.common.dto.ProductResponseDTO;
+import com.sangam.aggromart.common.dto.ProductRequestDTO;
+import com.sangam.aggromart.common.dto.ProductResponseDTO;
 import com.sangam.product.service.ProductService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;

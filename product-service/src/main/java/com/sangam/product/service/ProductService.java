@@ -1,8 +1,8 @@
 package com.sangam.product.service;
 
-import com.sangam.common.dto.ProductRequestDTO;
-import com.sangam.common.dto.ProductResponseDTO;
-import com.sangam.common.util.IdGenerator;
+import com.sangam.aggromart.common.dto.ProductRequestDTO;
+import com.sangam.aggromart.common.dto.ProductResponseDTO;
+import com.sangam.aggromart.common.util.IdGenerator;
 import com.sangam.product.entity.Product;
 import com.sangam.product.exception.ProductException;
 import com.sangam.product.repository.ProductRepository;

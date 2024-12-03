@@ -1,4 +1,4 @@
-package com.sangam.common.util;
+package com.sangam.aggromart.common.util;
 
 import java.util.UUID;
 
